@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Admin",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListRoles",
+                "iam:ListRolePolicies",
+                "iam:ListAttachedRolePolicies",
+                "iam:DeleteRolePolicy",
+                "iam:DeleteRole"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
