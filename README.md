@@ -9,7 +9,7 @@
 
 ## Subsystem
 - Users are creating projects which have permissions associated
-- Automated tests are being run and sometimes resources become orphan
+- Automated tests cab fail and cleanup is not done - resources become orphan
 - A cleanup system takes care of the leftovers
 
 ## Lego blocks (Services)
