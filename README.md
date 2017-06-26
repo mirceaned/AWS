@@ -6,6 +6,7 @@
 - agents deployed on EC2 instances to be monitored, taps traffic
 - agents deployed on the instance with monitoring tools
 - centralized backend in Amazon managed by the company which developed the product
+- Salt Stack - infrastructure as code
 
 ## Subsystem
 - Users are creating projects which have permissions associated
