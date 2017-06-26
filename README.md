@@ -1,6 +1,6 @@
 # AWS Building Blocks for apps
 
-##Lego blocks
+## Lego blocks
 Services
 - Lambda
 - IAM
@@ -8,12 +8,12 @@ Services
 - Cloudwatch
 - Events and Triggers
 
-##Pros
+## Pros
 - simplifies deployment
 - reduces cost for maintaining infrastructure
 - most of the time easily scalable
 
-##Cons
+## Cons
 - sometimes Amazon throttles resources if they think something malicious is going on
 - any downtime for the cloud provider will impact the app
 - app needs to be designed from the ground app with the assumption things will go wrong - e.g. requests may fail so retry mechanism is needed
