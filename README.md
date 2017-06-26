@@ -29,6 +29,6 @@
 ### Cons
 - sometimes Amazon throttles resources if they think something malicious is going on
 - any downtime for the cloud provider will impact directly the app
-- app needs to be designed from the ground app with the assumption things will go wrong
+- app needs to be designed from the ground app with the assumption things will go wrong (timeout, network issues etc)
 - lambda may be too slow for some operations, web app needs to be designed to be responsive
 - execution time for lambdas limited by default to 5 mins
