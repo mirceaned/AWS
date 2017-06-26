@@ -1,4 +1,4 @@
-# Building app from AWS Blocks
+# Building apps with AWS Blocks
 
 ## The app
 - Visibility as a service for Public Cloud
