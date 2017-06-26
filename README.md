@@ -31,3 +31,4 @@
 - any downtime for the cloud provider will impact directly the app
 - app needs to be designed from the ground app with the assumption things will go wrong
 - lambda may be too slow for some operations, web app needs to be designed to be responsive
+- execution time for lambdas limited by default to 5 min
