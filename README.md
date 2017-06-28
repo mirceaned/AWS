@@ -34,7 +34,7 @@
 ### Bad
 - sometimes Amazon throttles resources if they think something malicious is going on
 - any downtime for the cloud provider will directly impact the app
-- lambda may be too slow for time critical operations, caller (e.g. web app) needs to be designed to be responsive
+- lambda may be too slow for time critical operations, caller (e.g. web app) needs to be designed to be responsive. cold start.
 - execution time for lambdas limited to 5 mins by Amazon
 - debugging for Amazon lambdas is difficult
 
