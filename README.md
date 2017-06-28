@@ -6,11 +6,11 @@
 
 ## A cloud native app
 - Visibility as a service for public cloud
-- web UI hosted in S3
+- web app hosted in S3
 - agents on EC2 instances to tap traffic
 - agents on EC2 instance with monitoring tools
-- centralized backend in Amazon
-- Salt Stack - infrastructure as code
+- centralized backend in Amazon Cloud
+- Salt Stack - for infrastructure
 
 ## Subsystem
 - Users are creating projects which have permissions associated
