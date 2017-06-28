@@ -34,12 +34,14 @@
 - sometimes Amazon throttles resources if they think something malicious is going on
 - any downtime for the cloud provider will directly impact the app
 - lambda may be too slow for time critical operations, caller (e.g. web app) needs to be designed to be responsive
-- execution time for lambdas limited to 5 mins
+- execution time for lambdas limited to 5 mins by Amazon
+- debugging for Amazon lambdas is difficult
 
 ### So-so
 - design with the assumption everything will fail (timeouts, network issues etc), increases complexity
 
 ### Find out more
+- competition: Microsoft Azure, Google Cloud
 - explore AWS services, try the free tier and the labs: 
 
 https://aws.amazon.com/free/
