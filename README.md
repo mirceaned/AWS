@@ -21,19 +21,18 @@
 - Lambda
 - IAM
 - DynamoDB
-- Cloudwatch
-- Events and Triggers
+- Cloudwatch Logs and Events
 
 ## Some lessons
 
 ### Good
-- simple deployment, no need to worry about provisioning servers
-- reduces cost for maintaining infrastructure
+- simple deployment, with serverlss no need to worry about provisioning
+- can reduce cost for infrastructure
 - most of the time scales quickly and automatically
 
 ### Bad
 - sometimes Amazon throttles resources if they think something malicious is going on
-- any downtime for the cloud provider will impact directly the app
+- any downtime for the cloud provider will directly impact the app
 - lambda may be too slow for time critical operations, caller (e.g. web app) needs to be designed to be responsive
 - execution time for lambdas limited to 5 mins
 
