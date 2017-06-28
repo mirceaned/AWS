@@ -1,4 +1,4 @@
-# Building apps with AWS blocks
+# Building apps with AWS
 
 ## Overview
 - Cloud providers offer building blocks for a variety of needs
@@ -6,10 +6,10 @@
 
 ## A cloud native app
 - Visibility as a service for public cloud
-- web UI
+- web UI hosted in S3
 - agents on EC2 instances to tap traffic
 - agents on EC2 instance with monitoring tools
-- centralized backend in Amazon managed by the developer of the product
+- centralized backend in Amazon
 - Salt Stack - infrastructure as code
 
 ## Subsystem
@@ -19,6 +19,7 @@
 
 ## Building blocks (Services)
 - Lambda
+- API Gateway
 - IAM
 - DynamoDB
 - Cloudwatch Logs and Events
@@ -41,9 +42,10 @@
 - design with the assumption everything will fail (timeouts, network issues etc), increases complexity
 
 ### Find out more
-- competition: Microsoft Azure, Google Cloud
 - explore AWS services, try the free tier and the labs: 
 
 https://aws.amazon.com/free/
 
 https://aws.amazon.com/training/self-paced-labs/
+
+- competition: Microsoft Azure, Google Cloud
