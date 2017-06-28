@@ -41,5 +41,5 @@
 
 ### Find out more
 - explore AWS services, try the free tier and the labs: 
-https://aws.amazon.com/free/
-https://aws.amazon.com/training/self-paced-labs/
+ https://aws.amazon.com/free/
+ https://aws.amazon.com/training/self-paced-labs/
