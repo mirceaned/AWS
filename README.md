@@ -1,19 +1,23 @@
 # Building apps with AWS blocks
 
-## The app
-- Visibility as a service for Public Cloud
+## Overview
+- Cloud providers offer building blocks for a variety of needs
+- various degrees of cloud integration, for legacy apps or cloud native ones 
+
+## A cloud native app
+- Visibility as a service for public cloud
 - web UI
-- agents deployed on EC2 instances to be monitored, taps traffic
-- agents deployed on the instance with monitoring tools
-- centralized backend in Amazon managed by the company which developed the product
+- agents on EC2 instances to tap traffic
+- agents on EC2 instance with monitoring tools
+- centralized backend in Amazon managed by the developer of the product
 - Salt Stack - infrastructure as code
 
 ## Subsystem
 - Users are creating projects which have permissions associated
-- Automated tests cab fail and cleanup is not done - resources become orphan
-- A cleanup system takes care of the leftovers
+- Automated tests can fail and cleanup is not done - resources become orphan
+- A cleanup system to take care of the leftovers
 
-## Lego blocks (Services)
+## Building blocks (Services)
 - Lambda
 - IAM
 - DynamoDB
@@ -30,12 +34,13 @@
 ### Bad
 - sometimes Amazon throttles resources if they think something malicious is going on
 - any downtime for the cloud provider will impact directly the app
-- app needs to be designed from the ground app with the assumption things will go wrong (timeout, network issues etc)
-- lambda may be too slow for some operations, web app needs to be designed to be responsive
-- execution time for lambdas limited by default to 5 mins
+- lambda may be too slow for time critical operations, caller (e.g. web app) needs to be designed to be responsive
+- execution time for lambdas limited to 5 mins
 
 ### So-so
-- design with the assumption everything will fail, increases complexity
+- design with the assumption everything will fail (timeouts, network issues etc), increases complexity
 
 ### Find out more
-- explore AWS services, free tier: https://aws.amazon.com/free/
+- explore AWS services, try the free tier and the labs: 
+https://aws.amazon.com/free/
+https://aws.amazon.com/training/self-paced-labs/
