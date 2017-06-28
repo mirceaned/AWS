@@ -22,14 +22,20 @@
 
 ## Some lessons
 
-### Pros
-- this approach simplifies deployment
+### Good
+- simple deployment, no need to worry about provisioning servers
 - reduces cost for maintaining infrastructure
 - most of the time scales quickly and automatically
 
-### Cons
+### Bad
 - sometimes Amazon throttles resources if they think something malicious is going on
 - any downtime for the cloud provider will impact directly the app
 - app needs to be designed from the ground app with the assumption things will go wrong (timeout, network issues etc)
 - lambda may be too slow for some operations, web app needs to be designed to be responsive
 - execution time for lambdas limited by default to 5 mins
+
+### So-so
+- design with the assumption everything will fail, increases complexity
+
+### Find out more
+- explore AWS services, free tier: https://aws.amazon.com/free/
